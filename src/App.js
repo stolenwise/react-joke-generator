@@ -1,17 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import JokeList from "./JokeList";
-i
 
-/** App component. Renders list of jokes. */
+/** App component. Just renders the JokeList */
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <JokeList />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <JokeList />
+    </div>
+  );
 }
 
 export default App;
